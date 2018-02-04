@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="zepto.min.js"></script>
+    <script src="webapp.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="loader"></div>
+      <h1>Homehub Device</h1>
+    </header>
+    <div id="wifi-search" class="panel">
+        <div class="panel-title">
+            Redes disponibles
+          </div>
+        <div class="panel-body">
+          <div class="wifi-conn">
+            <span class="name">
+                <i class="fas fa-wifi"></i>WLAN_HOME</span>
+            <a href="#" class="btn-connect">Conectar</a>
+          </div>
+          <div class="wifi-conn">
+            <span class="name">
+                <i class="fas fa-wifi"></i>WLAN_PRIVATE</span>
+                <a href="#" class="btn-connect">Conectar</a>
+          </div>
+        </div>
+    </div>
+    <div class="panel sensor-panel">
+      <div class="panel-title">
+        Depósito de combustible
+      </div>
+      <div class="panel-sensor-bar" style="width: 6px; background:rgb(81, 34, 121, 0.3);">
+        <span style="background: rgb(81, 34, 121); width: 75px; display:inline-block; color: white;">32%</span>
+      </div>
+    </div>
+  </body>
+</html>
